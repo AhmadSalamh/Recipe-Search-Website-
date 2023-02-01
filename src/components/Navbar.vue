@@ -89,9 +89,9 @@ export default {
 };
 </script>
 <style scoped lang="scss">
-.responsive-menu,
-.overlay {
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .responsive-menu,
+  .overlay {
     position: fixed;
     height: 100vh;
     right: -1000%;
@@ -102,20 +102,20 @@ export default {
       right: 0;
     }
   }
-}
-.responsive-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  padding-top: 50px;
-  padding-left: 10px;
+  .responsive-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+    padding-left: 10px;
 
-  background: #f3f4f6;
-  width: fit-content;
-  min-width: 220px;
-}
-.overlay {
-  width: 100vw;
-  background-color: #00000080;
+    background: #f3f4f6;
+    width: fit-content;
+    min-width: 220px;
+  }
+  .overlay {
+    width: 100vw;
+    background-color: #00000080;
+  }
 }
 </style>
