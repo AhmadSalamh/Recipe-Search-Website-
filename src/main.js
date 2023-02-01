@@ -5,14 +5,13 @@ import "./style.css";
 import Loader from "./components/Loader.vue";
 import YouTubeButton from "./components/YouTubeButton.vue";
 import MealItem from "./components/MealItem.vue";
-import ReadMore from "vue-read-more";
+// import ReadMore from "vue-read-more";
 
 import App from "./App.vue";
 
 createApp(App)
   .use(router)
   .use(store)
-  .use(ReadMore)
   .component("loader", Loader)
   .component("youtubebutton", YouTubeButton)
   .component("meal-item", MealItem)

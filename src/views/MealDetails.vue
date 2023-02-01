@@ -17,13 +17,14 @@
       </div>
     </div>
     <div class="my-3 text-gray-600 text-xl">
-      <read-more
+      {{ mealStrInstructions }}
+      <!-- <read-more
         more-str="Read more"
-        :text="mealStrInstructions"
+        :text=""
         link="#"
         less-str="Read less"
         :max-chars="500"
-      ></read-more>
+      ></read-more> -->
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2">
       <div>
